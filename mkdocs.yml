@@ -1,0 +1,15 @@
+site_name: Python自然语言处理笔记
+theme: readthedocs
+pages:
+- 关于课程: index.md
+- 语言处理与Python: lecture1.md
+- 获得文本语料和词汇资源: lecture2.md
+- 处理原始文本: lecture3.md
+- 编写结构化程序: lecture4.md
+- 分类和标注词汇: lecture5.md
+- 学习分类文本: lecture6.md
+- 从文本提取信息: lecture7.md
+- 分析句子结构: lecture8.md
+- 建立基于特征的文法: lecture9.md
+- 分析语句的含义: lecture10.md
+- 语言数据管理: lecture11.md
