@@ -1,5 +1,7 @@
 
-语言处理与Python
+# 第一章 语言处理与Python
+
+先搞个小计算
 
 
 ```
@@ -12,6 +14,8 @@
     8
 
 
+
+有什么书呢？
 
 
 ```
@@ -32,6 +36,8 @@ from nltk.book import *
     text8: Personals Corpus
     text9: The Man Who Was Thursday by G . K . Chesterton 1908
     
+
+看一看
 
 
 ```
@@ -75,3 +81,64 @@ text1.concordance("monstrous")
     ght have been rummaged out of this monstrous cabinet there is no telling . But 
     of Whale - Bones ; for Whales of a monstrous size are oftentimes cast up dead u
     
+
+
+```
+text1.similar("monstrous")
+```
+
+    true contemptible christian abundant few part mean careful puzzled
+    mystifying passing curious loving wise doleful gamesome singular
+    delightfully perilous fearless
+    
+
+
+```
+text2.similar("monstrous")
+```
+
+    very so exceedingly heartily a as good great extremely remarkably
+    sweet vast amazingly
+    
+
+
+```
+text2.common_contexts(["monstrous", "very"])
+```
+
+    a_pretty am_glad a_lucky is_pretty be_glad
+    
+
+
+```
+text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
+```
+
+
+![png](lecture1_files/lecture1_12_0.png)
+
+
+图太小不好看，调一调
+
+
+```
+import pylab
+pylab.rcParams['figure.figsize'] = (15.0, 8.0)
+text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
+```
+
+
+![png](lecture1_files/lecture1_14_0.png)
+
+
+
+```
+len(text3)
+```
+
+
+
+
+    44764
+
+

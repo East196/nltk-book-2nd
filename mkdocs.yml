@@ -13,3 +13,6 @@ pages:
 - 建立基于特征的文法: lecture9.md
 - 分析语句的含义: lecture10.md
 - 语言数据管理: lecture11.md
+- NLTK参考视频笔记: sentdex.md
+#- 结巴分词: jieba.md
+#- Gensim: gensim.md
