@@ -4,7 +4,7 @@ Python自然语言处理笔记
 ## 源起
 由于[《Python自然语言处理》](https://item.jd.com/11487324.html)``翻译不忍直视``+``API变化``
 
-于是对照 [nltk官网book](http://www.nltk.org/book/) 做修改+心得笔记
+于是对照 [nltk官网book](http://www.nltk.org/book/) 做修改+基于中文的心得笔记
 
 此书虽然主要是英语的处理，也没有涉及高大上的深度学习等前沿技术，但是体系完整，值得一读。
 
@@ -18,9 +18,9 @@ Python自然语言处理笔记
 [nlp-with-python-and-nltk](https://github.com/PrestonNalls/nlp-with-python-and-nltk)
 
 ## 构建说明
-`pip install mkdocs fabric3` python3安装mkdocs和fabric3
+`pip install nltk jieba gensim wordcloud` 引入必须类库
 
-`pip install mkdocs fabric` python2安装mkdocs和fabric
+`pip install mkdocs fabric3` python3安装mkdocs和fabric3
 
 `fab build` 构建并copy至个人主页项目
 
