@@ -27,5 +27,6 @@ Python自然语言处理笔记
 `fab serve` 开启服务
 
 ## Notes
-mkdocs的search中文是无效的
+mkdocs的search中文是无效的~~~ 直接搜英文关键词吧~~~
+
 思维导图均为xmind制作
