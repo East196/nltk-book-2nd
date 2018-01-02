@@ -857,7 +857,6 @@ words = pseg.cut(book[:100])
 for w in words:
     if w.flag == 'nr':
         print(w.word, w.flag, w)
-
 ```
 
     玄幻 nr 玄幻/nr
